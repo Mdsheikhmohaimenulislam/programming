@@ -1,0 +1,180 @@
+
+
+.open-sans-normal{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  /* header banner */
+  
+  .header{
+      background-image: url('../image/developer.png'),url('../image/header_bg.png');
+      background-repeat: no-repeat;
+      background-position:top left , bottom right;
+      background-color: rgba(255, 248, 243, 1);
+      
+  }
+  
+  /* style paimari */
+  
+  .text-paimari{
+      color: rgba(253, 110, 10, 1);
+  }
+  
+  .dark-2{
+  
+      color: (71, 71, 71, 1);
+  }
+  
+  
+  /* nave style */
+  
+  .nav-title{
+      font-weight:800;
+      font-size:45px;
+  }
+  
+  
+  nav{
+      display: flex;
+      justify-content:space-between ;
+      align-items: center;
+      margin:0 0 0 200px;
+      margin-top:-50px;
+  
+  }
+  
+  
+  
+  nav ul{
+      display: flex;
+      align-items: center;
+  
+  }
+  
+  
+  nav ul li{
+      list-style:none;
+      margin:43px;
+  
+  }
+  
+  nav li a{
+      text-decoration: none;
+   
+  }
+  
+  .bnt{
+      font-weight: 400;
+      font-size: 20px;
+      background-color: rgba(253, 110, 10, 1);
+      padding: 19px 36px;
+      border: none;
+      color: rgba(255, 255, 255, 1);
+      border-radius: 5px;
+  }
+  
+  /* style banner */
+  
+  .banner-greeting{
+      font-weight:600;
+      font-size: 45px;
+      color: rgba(71, 71, 71, 1);
+  }
+  
+  .banner-titles{
+      font-weight: 400;
+      font-size: 85px;
+      color: rgba(24, 24, 24, 1);
+  }
+  
+  .banner-discription{
+      font-size:18px;
+      color: rgba(117, 117, 117, 1);
+  }
+  
+  .contact-bt{
+      font-size: 20px;
+      font-weight: bold;
+      color: rgba(253, 110, 10, 1);
+      padding:19px 23px 18px 58px;
+      border-radius: 5px;
+      margin-left: 20px;
+      border-color: rgba(253, 110, 10, 1) ;
+  
+  }
+  
+  .banner-container{
+      display: flex;
+      justify-content:space-between;
+      /* justify-items: center; */
+  }
+  
+  .banner-img{
+      display: flex;
+      width: 580px;
+      margin: 0 35px 0 200px;
+  
+  }
+  .banner-content{
+      margin: 0px 0 4px 200px;
+  
+  }
+  
+  .banner-info{
+  
+      /* margin:50px 806px 250px 211px; */
+      display: flex;
+      justify-content: center;
+  
+  
+  }
+  /* mai style */
+  
+  main{
+      max-width: 1140px;
+      margin: 0 auto;
+  }
+  
+  /* about */
+  
+  .about{
+  
+      font-size: 45px;
+      font-weight: bold;
+      color: rgba(24, 24, 24, 1);
+      ju
+  
+  }
+  
+  .about-content{
+      font-size: 20px;
+      font-weight:;
+      color:rgba(71, 71, 71, 1);
+      background-color: rgba(255, 248, 243, 1);
+  }
+  
+  .about-info{
+      justify-items: center;
+     padding: 131px 157px;
+     margin-top: 130px;
+  
+  }
+  
+  
+  .about-discription{
+      font-size: bold;
+      font-weight: 500;
+  }
+  
+  
+  .about-titles{
+  
+      display: flex;
+      justify-content: space-around;
+  
+  }
+  
