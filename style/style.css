@@ -75,6 +75,7 @@
       border: none;
       color: rgba(255, 255, 255, 1);
       border-radius: 5px;
+      margin-top: 35px;
   }
   
   /* style banner */
@@ -92,7 +93,7 @@
   }
   
   .banner-discription{
-      font-size:18px;
+      font-size:16px;
       color: rgba(117, 117, 117, 1);
   }
   
@@ -190,8 +191,7 @@
   }
 
   .description{
-    margin: 131px 0;
-    /* align-items: center; */
+    margin: 131px 160px;
     justify-items: center;
 
   }
@@ -211,7 +211,39 @@
   .box-container{
     display: flex;
      gap: 24px;
-    
-    /* color: rgba(255, 255, 255, 1); */
+  }
+
+  /* resume style */
+
+  .container-summary-resume{
+    margin: 131px 100px;
+    justify-items: center;
+  }
+
+  .resume-title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .resume-dt{
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
     
   }
+
+  .titel-2{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgba(71, 71, 71, 1) ;
+  }
+
+ .resume-container{
+    display: flex;
+    justify-content: center;
+ }
+
+ .summary-resume{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+ }
